@@ -102,6 +102,8 @@ footer p {
 @media(max-width: 560px) {
   .showcase::after {
     height: 60vh;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
   }
 
   .content {
@@ -135,6 +137,11 @@ footer p {
 
 /* Landscape */
 @media(max-height: 500px) {
+  .showcase::after {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  
   .content .text {
     display: none;
   }
